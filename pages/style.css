@@ -1,0 +1,11 @@
+#form {
+    background-color: #FF8E64 ;
+    display: flexbox;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    width: 30%;
+    }
