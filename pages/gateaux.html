@@ -33,95 +33,83 @@
             </nav>
         </header>
 
+        <div class="container">
         <h1>Gateaux</h1>
-        <div class="container">
-            <div class="item1">
-                <figure>
-                    <img src="../assets/img/gateau1.jpg" alt="gateau1" id="btn1">
-                    <figcaption>Gâteau au chocolat</figcaption>
-                </figure>
+            <div class="wrapper">
+                <div class="item1">
+                    <figure>
+                        <img src="../assets/img/gateau1.jpg" alt="gateau1" class="showBtn">
+                        <figcaption>Gâteau au chocolat</figcaption>
+                    </figure>
+                </div>
+                <div class="item2">
+                    <figure>
+                        <img src="../assets/img/gateau2.jpg" alt="gateau2" class="showBtn">
+                        <figcaption>Tarte au citron</figcaption>
+                    </figure>
+                </div>
+                <div class="item3">
+                    <figure>
+                        <img src="../assets/img/gateau3.jpg" alt="gateau3" class="showBtn">
+                        <figcaption>Fraisier</figcaption>
+                    </figure>
+                </div>
+                <div class="item4">
+                    <figure>
+                        <img src="../assets/img/gateau4.jpg" alt="gateau4" class="showBtn">
+                        <figcaption>Gâteau au yaourt</figcaption>
+                    </figure>
+                </div>
+                <div class="item5">
+                    <figure>
+                        <img src="../assets/img/gateau5.jpg" alt="gateau5" class="showBtn">
+                        <figcaption>Flan pâtissier</figcaption>
+                    </figure>
+                </div>
             </div>
-            <div class="item2">
-                <figure>
-                    <img src="../assets/img/gateau2.jpg" alt="gateau2" id="btn2">
-                    <figcaption>Tarte au citron</figcaption>
-                </figure>
-            </div>
-            <div class="item3">
-                <figure>
-                    <img src="../assets/img/gateau3.jpg" alt="gateau3" id="btn3">
-                    <figcaption>Fraisier</figcaption>
-                </figure>
-            </div>
-            <div class="item4">
-                <figure>
-                    <img src="../assets/img/gateau4.jpg" alt="gateau4" id="btn4">
-                    <figcaption>Gâteau au yaourt</figcaption>
-                </figure>
-            </div>
-            <div class="item5">
-                <figure>
-                    <img src="../assets/img/gateau5.jpg" alt="gateau5" id="btn5">
-                    <figcaption>Flan pâtissier</figcaption>
-                </figure>
+            <div class="wrapper">
+                <div class="item1">
+                    <figure>
+                        <img src="../assets/img/gateau6.jpg" alt="gateau6" class="showBtn">
+                        <figcaption>Baba au rhum</figcaption>
+                    </figure>
+                </div>
+                <div class="item2">
+                    <figure>
+                        <img src="../assets/img/gateau7.jpg" alt="gateau7" class="showBtn">
+                        <figcaption>Cheesecake</figcaption>
+                    </figure>
+                </div>
+                <div class="item3">
+                    <figure>
+                        <img src="../assets/img/gateau8.jpg" alt="gateau8" class="showBtn">
+                        <figcaption>Clafoutis aux cerises</figcaption>
+                    </figure>
+                </div>
+                <div class="item4">
+                    <figure>
+                        <img src="../assets/img/gateau9.jpg" alt="gateau9" class="showBtn">
+                        <figcaption>Tarte aux pommes</figcaption>
+                    </figure>
+                </div>
+                <div class="item5">
+                    <figure>
+                        <img src="../assets/img/gateau10.jpg" alt="gateau10" class="showBtn">
+                        <figcaption>Gâteau Breton</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <div class="item1">
-                <figure>
-                    <img src="../assets/img/gateau6.jpg" alt="gateau6" id="btn6">
-                    <figcaption>Baba au rhum</figcaption>
-                </figure>
-            </div>
-            <div class="item2">
-                <figure>
-                    <img src="../assets/img/gateau7.jpg" alt="gateau7" id="btn7">
-                    <figcaption>Cheesecake</figcaption>
-                </figure>
-            </div>
-            <div class="item3">
-                <figure>
-                    <img src="../assets/img/gateau8.jpg" alt="gateau8" id="btn8">
-                    <figcaption>Clafoutis aux cerises</figcaption>
-                </figure>
-            </div>
-            <div class="item4">
-                <figure>
-                    <img src="../assets/img/gateau9.jpg" alt="gateau9" id="btn9">
-                    <figcaption>Tarte aux pommes</figcaption>
-                </figure>
-            </div>
-            <div class="item5">
-                <figure>
-                    <img src="../assets/img/gateau10.jpg" alt="gateau10" id="btn10">
-                    <figcaption>Gâteau Breton</figcaption>
-                </figure>
-            </div>
-        </div>
-
-        <div id="gateau1" class="gateau">
-            <div id="modal-content">
+        <!-- Pages modals (détails) -->
+        <div id="gateau1" class="modal">
+            <div class="modal-content">
                 <figure>
                     <span class="close">&times;</span>
-                    <img src="../assets/img/gateau1.jpg" alt="gateau1">
-                    <figcaption><h2>Gâteau au chocolat</h2></figcaption>
-                    <figcaption><strong>Ingédients :</strong> Chocolat pâtissier, Beurre, Oeufs, Sucre en poudre, Farine</figcaption>
+                    <img src="" alt="gateau1" id="imageDetails">
+                    <figcaption><h2 id="titreDetails"></h2></figcaption>
+                    <figcaption ><strong>Ingédients : </strong><span id="ingredientsDetails"></span></figcaption>
                     <br>
-                    <figcaption><strong>Prix :</strong> 18€</figcaption>
-                    <br>
-                    <input type="button" value="Ajouter au panier">
-                </figure>
-            </div>
-        </div>
-        <div id="gateau2" class="gateau">
-            <div id="modal-content">
-                <figure>
-                    <span class="close">&times;</span>
-                    <img src="../assets/img/gateau2.jpg" alt="gateau2">
-                    <figcaption><h2>Tarte au citron</h2></figcaption>
-                    <figcaption><strong>Ingédients :</strong> Pâte brisée, Sucre, Beurre, Oeufs, Citron</figcaption>
-                    <br>
-                    <figcaption><strong>Prix :</strong> 18€</figcaption>
+                    <figcaption><strong>Prix : </strong><span id="prixDetails"></span></figcaption>
                     <br>
                     <input type="button" value="Ajouter au panier">
                 </figure>

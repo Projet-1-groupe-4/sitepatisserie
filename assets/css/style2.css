@@ -108,7 +108,7 @@ h1 {
     font-size: 3em;
 }
 
-.container {
+.wrapper {
     margin-top: 3%;
     margin-bottom: 5%;
 
@@ -132,7 +132,8 @@ figcaption {
 
 /* DETAILS / MODAL */
 
-.gateau {
+
+.modal {
     display: none;
     position: absolute;
     z-index: 1;
@@ -143,13 +144,7 @@ figcaption {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-#modal-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#modal-content figure {
+.modal-content figure {
     max-width: 28em;
     padding: 1em;
     padding-top: 0.5em;
@@ -158,7 +153,7 @@ figcaption {
     border-radius: 5px;
 }
 
-#modal-content figure img {
+.modal-content figure img {
     width: 28em;
     height: 20em;
     border-radius: 5px;
