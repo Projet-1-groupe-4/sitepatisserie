@@ -33,72 +33,92 @@
             </nav>
         </header>
 
-        <h1>Patisseries</h1>
         <div class="container">
-            <div class="item1">
-                <figure>
-                    <img src="../assets/img/patisserie1.jpg" alt="patisserie1">
-                    <figcaption>Paris-Brest</figcaption>
-                </figure>
+            <h1>Patisseries</h1>
+            <div class="wrapper">
+                <div class="item1">
+                    <figure>
+                        <img src="../assets/img/patisserie1.jpg" alt="patisserie1" class="showBtn">
+                        <figcaption>Paris-Brest</figcaption>
+                    </figure>
+                </div>
+                <div class="item2">
+                    <figure>
+                        <img src="../assets/img/patisserie2.jpeg" alt="patisserie2" class="showBtn">
+                        <figcaption>Mille-feuille</figcaption>
+                    </figure>
+                </div>
+                <div class="item3">
+                    <figure>
+                        <img src="../assets/img/patisserie3.jpg" alt="patisserie3" class="showBtn">
+                        <figcaption>Éclair au chocolat</figcaption>
+                    </figure>
+                </div>
+                <div class="item4">
+                    <figure>
+                        <img src="../assets/img/patisserie4.jpeg" alt="patisserie4" class="showBtn">
+                        <figcaption>Éclair au café</figcaption>
+                    </figure>
+                </div>
+                <div class="item5">
+                    <figure>
+                        <img src="../assets/img/patisserie5.jpg" alt="patisserie5" class="showBtn">
+                        <figcaption>Opéra</figcaption>
+                    </figure>
+                </div>
             </div>
-            <div class="item2">
-                <figure>
-                    <img src="../assets/img/patisserie2.jpeg" alt="patisserie2">
-                    <figcaption>Mille-feuille</figcaption>
-                </figure>
+
+            <div class="wrapper">
+                <div class="item1">
+                    <figure>
+                        <img src="../assets/img/patisserie6.jpeg" alt="patisserie6" class="showBtn">
+                        <figcaption>Tartelette aux fraises</figcaption>
+                    </figure>
+                </div>
+                <div class="item2">
+                    <figure>
+                        <img src="../assets/img/patisserie7.jpg" alt="patisserie7" class="showBtn">
+                        <figcaption>Tartelette au citron meringuée</figcaption>
+                    </figure>
+                </div>
+                <div class="item3">
+                    <figure>
+                        <img src="../assets/img/patisserie8.jpeg" alt="patisserie8" class="showBtn">
+                        <figcaption>Macarons</figcaption>
+                    </figure>
+                </div>
+                <div class="item4">
+                    <figure>
+                        <img src="../assets/img/patisserie9.png" alt="patisserie9" class="showBtn">
+                        <figcaption>Tiramisu</figcaption>
+                    </figure>
+                </div>
+                <div class="item5">
+                    <figure>
+                        <img src="../assets/img/patisserie10.jpg" alt="patisserie10" class="showBtn">
+                        <figcaption>Tartelette aux framboises</figcaption>
+                    </figure>
+                </div>
             </div>
-            <div class="item3">
+        </div>
+
+        <!-- Pages modals (détails) -->
+        <div id="details" class="modal">
+            <div class="modal-content">
                 <figure>
-                    <img src="../assets/img/patisserie3.jpg" alt="patisserie3">
-                    <figcaption>Éclair au chocolat</figcaption>
-                </figure>
-            </div>
-            <div class="item4">
-                <figure>
-                    <img src="../assets/img/patisserie4.jpeg" alt="patisserie4">
-                    <figcaption>Éclair au café</figcaption>
-                </figure>
-            </div>
-            <div class="item5">
-                <figure>
-                    <img src="../assets/img/patisserie5.jpg" alt="patisserie5" id="gateau5">
-                    <figcaption>Opéra</figcaption>
+                    <span class="close">&times;</span>
+                    <img src="" alt="gateau1" id="imageDetails">
+                    <figcaption><h2 id="titreDetails"></h2></figcaption>
+                    <figcaption ><strong>Ingédients : </strong><span id="ingredientsDetails"></span></figcaption>
+                    <br>
+                    <figcaption><strong>Prix : </strong><span id="prixDetails"></span></figcaption>
+                    <br>
+                    <input type="button" value="Ajouter au panier">
                 </figure>
             </div>
         </div>
 
-        <div class="container">
-            <div class="item1">
-                <figure>
-                    <img src="../assets/img/patisserie6.jpeg" alt="patisserie6">
-                    <figcaption>Tartelette aux fraises</figcaption>
-                </figure>
-            </div>
-            <div class="item2">
-                <figure>
-                    <img src="../assets/img/patisserie7.jpg" alt="patisserie7">
-                    <figcaption>Tartelette au citron meringuée</figcaption>
-                </figure>
-            </div>
-            <div class="item3">
-                <figure>
-                    <img src="../assets/img/patisserie8.jpeg" alt="patisserie8">
-                    <figcaption>Macarons</figcaption>
-                </figure>
-            </div>
-            <div class="item4">
-                <figure>
-                    <img src="../assets/img/patisserie9.png" alt="patisserie9">
-                    <figcaption>Tiramisu</figcaption>
-                </figure>
-            </div>
-            <div class="item5">
-                <figure>
-                    <img src="../assets/img/patisserie10.jpg" alt="patisserie10">
-                    <figcaption>Tartelette aux framboises</figcaption>
-                </figure>
-            </div>
-        </div>
+        <script src="../assets/js/detailsPatisseries.js"></script>
 
         <footer>
             <div id="footerNavigation">
