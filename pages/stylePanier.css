@@ -1,0 +1,21 @@
+.container1 {
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+
+}
+
+.img {
+margin: 2%;
+width: 10%;
+height: 10%;
+}
+  
+.list {
+list-style-type: none;
+text-align: justify;
+}
+
+
+
+
