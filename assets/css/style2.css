@@ -124,9 +124,24 @@ img {
 }
 
 figcaption {
-    margin-top: 1em;
+    margin-top: 0.5em;
     text-align: center;
     font-size: 1.3em;
+    font-family: "Ballet Harmony";
+}
+
+.titre {
+    font-size: 2em;
+}
+
+.wrapper div img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.wrapper div:hover img {
+    opacity: .7;
+    cursor: pointer;
 }
 
 
