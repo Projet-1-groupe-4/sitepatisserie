@@ -1,5 +1,74 @@
-/* Khalissa */
+#accueil {
+    width: 110rem;
+    margin: 0 auto;
+}
 
-/* Paul */
+#accueil #hero {
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
 
-/* Adel */
+#accueil #hero img {
+    width: 100%;
+}
+
+#accueil #hero h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    margin: 0;
+    background: radial-gradient(rgba(150, 150, 150, 1), rgba(255, 255, 255, 0) 60%);
+    color: white;
+    padding: 4rem 8rem;
+    font-size: 4rem;
+}
+
+#accueil #searchBar {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#accueil #searchBar .recherche {
+    flex: 1;
+    height: 4em;
+    background-color: #fff;
+}
+
+#accueil #searchBar .bRecherche {
+    background-color: #707070;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#accueil #info {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#accueil #promos h1 {
+    text-align: center;
+}
+
+#accueil #promos .item {
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+#accueil #promos .item img {
+    width: 50%;
+}
+
+#accueil #promos .item div {
+    padding: 1rem;
+    flex: 1;
+    background-color: white;
+}
