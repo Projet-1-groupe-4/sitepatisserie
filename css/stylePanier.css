@@ -9,6 +9,8 @@ align-content: flex-start;
 
 .img {
 margin: 2%;
+height: 100px;
+width: 100px;
 }
   
 .list {
@@ -20,7 +22,7 @@ text-align: justify;
 font-weight: bold;
 }
 
-.demeteButton {
+.deleteButton {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
