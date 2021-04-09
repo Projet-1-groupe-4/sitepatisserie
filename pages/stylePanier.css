@@ -1,14 +1,14 @@
+
 .container1 {
 display: flex;
 flex-wrap: wrap;
+width: 100%;
 align-content: flex-start;
 
 }
 
 .img {
 margin: 2%;
-width: 10%;
-height: 10%;
 }
   
 .list {
@@ -16,6 +16,47 @@ list-style-type: none;
 text-align: justify;
 }
 
+.total {
+font-weight: bold;
+}
 
-
-
+.demeteButton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 0px;
+    border: 0px solid #b3b3b3;
+    border-radius: 100px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    font: normal normal normal 5px arial;
+    color: #111111;
+    text-decoration: none;
+}
+.deleteButton:hover,
+.deleteButton:focus {
+    border: 0px solid #ffffff;
+    color: #111111;
+    text-decoration: none;
+}
+.deleteButton:active {
+    background: #b3b3b3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b3b3b3), to(#ffffff));
+    background: -moz-linear-gradient(top, #b3b3b3, #ffffff);
+    background: linear-gradient(to bottom, #b3b3b3, #ffffff);
+}
+.deleteButton:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: -4px;
+    left: 4px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABEklEQVRIie2VzY3CQAyFP6IcoIk9IARl0MOKflZUwZEG0PawZSBtE5xyQQkXG814PImziNs+aZRnj//yZGkWQMMb0cq3rzRSfwscgJ34r8AFuJtcl9vCjcNPwGDOaSQ+42MNFB1wlrtGeOfEFVCJtOhXJW4JrJP7tfiOlfinfyHFe7GHyFQBZHWtJMdAI0/rgfyPGiglqhWJNil4uqYWumZ6F+FY/9SUPfAjJ+UYXsUcicaGeUmiCF6SaA4vctvEMSVJZGsKOzX64GQebJ7a/xK5sZlErRNsE/eJXePVpnMkimJSIn1IPox/jGts58QUk26BG+UTOXVukpshfRjSRhvgE1jZhAo64Bv49S7/so5h/gC5bWaBAygdMwAAAABJRU5ErkJggg==") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
